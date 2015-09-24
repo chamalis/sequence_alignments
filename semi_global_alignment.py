@@ -1,7 +1,7 @@
 from matrices import *
 
 """ do pairwise semi-global alignment using DP """
-def do_semiglobal_alignment( seqs, exchangeMatrix, penalty, print_Matrix):
+def do_semiglobal_alignment(seqs, exchangeMatrix, penalty, print_Matrix):
 
     # get the two sequences by calling the function Sequence
     seq1 = seqs[0].Sequence

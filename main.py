@@ -1,8 +1,6 @@
 #!/usr/bin/python
 
-# for commandline options:
-from optparse import OptionParser, OptionGroup
-
+from optparse import OptionParser
 from matrices import *
 
 class Sequence:
